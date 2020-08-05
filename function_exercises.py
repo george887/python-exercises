@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[20]:
+# In[1]:
 
 
 #1. Define a function named is_two. It should accept one input and return True if the assed input is either 
@@ -21,7 +21,7 @@ assert type(is_two(2)) == bool
 is_two(2)
 
 
-# In[22]:
+# In[2]:
 
 
 #2. Define a function named is_vowel. It should return True if the passed string is a vowel, False otherwise.
@@ -40,13 +40,13 @@ assert type(is_vowel("D")) == bool
 is_vowel("D")  
 
 
-# In[22]:
+# In[3]:
 
 
 is_vowel("A")
 
 
-# In[28]:
+# In[4]:
 
 
 #3. Define a function named is_consonant. It should return True if the passed string is a consonant, 
@@ -65,13 +65,13 @@ def is_consonant(x):
 is_consonant("O")
 
 
-# In[302]:
+# In[5]:
 
 
 is_consonant("C")
 
 
-# In[101]:
+# In[6]:
 
 
 #4. Define a function that accepts a string that is a word. The function should capitalize the first letter
@@ -89,14 +89,14 @@ def cap_first_letter_word(word):
     
 
 
-# In[106]:
+# In[7]:
 
 
 cap_first_letter_word("ant")
 cap_first_letter_word("dog")
 
 
-# In[45]:
+# In[8]:
 
 
 #5. Define a function named calculate_tip. It should accept a tip percentage (a number between 0 and 1) and
@@ -112,13 +112,13 @@ def calculate_tip(tip_percentage, bill_total):
     
 
 
-# In[52]:
+# In[9]:
 
 
 calculate_tip(.15,50)
 
 
-# In[162]:
+# In[10]:
 
 
 #6. Define a function named apply_discount. It should accept a original price, and a discount percentage, 
@@ -132,13 +132,13 @@ def apply_discount(original_price, discount_percentage):
     return price_after_discount
 
 
-# In[163]:
+# In[11]:
 
 
 apply_discount(55, .3)
 
 
-# In[80]:
+# In[12]:
 
 
 #7. Define a function named handle_commas. It should accept a string that is a number that contains commas
@@ -151,13 +151,13 @@ def handle_commas(number):
     return remove_commas
 
 
-# In[81]:
+# In[13]:
 
 
 handle_commas("4,4,44,")
 
 
-# In[213]:
+# In[14]:
 
 
 #8. Define a function named get_letter_grade. It should accept a number and return the letter grade associated
@@ -178,13 +178,13 @@ def get_letter_grade(grade):
             return "F"
 
 
-# In[215]:
+# In[15]:
 
 
 get_letter_grade("60")
 
 
-# In[225]:
+# In[16]:
 
 
 #9. Define a function named remove_vowels that accepts a string and returns a string with all the vowels
@@ -203,13 +203,13 @@ def remove_vowels(word):
             return word
 
 
-# In[226]:
+# In[17]:
 
 
 remove_vowels("dog")
 
 
-# In[85]:
+# In[18]:
 
 
 #10. Define a function named normalize_name. It should accept a string and return a valid python identifier, 
@@ -231,13 +231,13 @@ def normalize_name(word):
     return remove_special_char
 
 
-# In[86]:
+# In[19]:
 
 
 normalize_name("23  ssDDWd() ?}")
 
 
-# In[8]:
+# In[20]:
 
 
 #11. Write a function named cumulative_sum that accepts a list of numbers and returns a list that is the 
@@ -254,7 +254,7 @@ def cumulative_sum(numbers):
 cumulative_sum([10,20,30,40,50])
 
 
-# In[110]:
+# In[21]:
 
 
 # Bonus Create a function named twelveto24. It should accept a string in the format 10:45am or 4:30pm and 
@@ -285,9 +285,11 @@ twelveto24("3:14AM")
 # In[ ]:
 
 
-# Create a function named col_index. It should accept a spreadsheet column name, and return the index number 
-# of the column.
-col_index('A') returns 1
-col_index('B') returns 2
-col_index('AA') returns 27
+
+
+
+# In[ ]:
+
+
+
 
